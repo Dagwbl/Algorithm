@@ -14,7 +14,7 @@ reflection(45) = [[0.05064397763545947, 0.893996663600558],
 from math import cos, sin
 
 
-def scaling(scaling_factor: float) -> list[list[float]]:
+def scaling(scaling_factor: float) -> list:
     """
     >>> scaling(5)
     [[5.0, 0.0], [0.0, 5.0]]
